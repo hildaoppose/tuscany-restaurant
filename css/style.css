@@ -1,0 +1,360 @@
+* {
+    font-family: 'EB Garamond', serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #000;
+    padding-right: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.h3 {
+    text-transform: capitalize;
+    letter-spacing: 4;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding-top: -30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Main Section */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    margin-left: 90px;
+
+}
+
+.heading-one {
+    font-size: 320px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 30px;
+}
+
+#header-image {
+    width: 480px;
+    height: 600px;
+}
+
+.left {
+    margin-right: -200px;
+}
+
+.right {
+    margin-left: -150px;
+}
+
+/* About Section */
+
+.tradition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -125px;
+}
+
+.heading-five {
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.paragraph {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.paragraph::first-letter {
+    text-transform: capitalize;
+}
+
+.heading-five::first-letter {
+    text-transform: capitalize;
+}
+
+#bullet-list {
+    list-style-type: circle;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: flex;
+    flex-direction: column;
+}
+
+#tuscany-image {
+    width: 500px;
+    padding-left: 50px;
+}
+
+.specials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specials-items {
+    padding-right: 50px;
+}
+
+#special-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#s-image {
+    width: 200px;
+}
+
+
+/* History */
+
+.history {
+    display: flex;
+}
+
+#cutlery {
+    width: 500px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+
+
+/* Menu */
+
+#h5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.menu-1 {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+.menu-2 {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+#images {
+    width: 330px;
+    height: 600px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.heading-six {
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.food-name {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.food-items {
+    display: flex;
+    border-bottom: 1px solid grey;
+}
+
+.sub-section {
+    padding-right: 40px;
+}
+
+#price {
+    float: right;
+}
+
+.menu-items {
+    padding-left: 80px;
+}
+
+.book {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Location */
+
+.location {
+    background-image: url(/img/engjell-gjepali-M0OIyN5u8ZM-unsplash.jpg);
+    height: 560px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#location {
+    color: #fff;
+    padding-top: 200px;
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+.space {
+    display: flex;
+}
+
+#call {
+    text-transform: capitalize;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.reserve {
+    text-transform: capitalize;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-items {
+    padding-right: 60px;
+    padding-bottom: 50px;
+}
+
+
+#name {
+    border: 1px solid black;
+    width: 300px;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+#phone {
+    border: 1px solid black;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-style: italic;
+    height: 50px;
+}
+
+#persons {
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-style: italic;
+    height: 50px;
+}
+
+.dates {
+    color: grey;
+}
+
+label,
+input {
+    outline: none;
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+select {
+    border: none;
+}
+
+select option:first-child {
+    display: none;
+}
+
+*/ .first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+label {
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+textarea {
+    height: 250px;
+}
+
+#button {
+    height: 40px;
+    background: black;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
